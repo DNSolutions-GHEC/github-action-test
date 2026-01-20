@@ -1,0 +1,20 @@
+name: KILLLLLLLL
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      #- uses: actions/checkout@v3
+
+      - name: Run pwd
+        run: pwd
+
+      - name: run ls -al
+        run: ls -al
